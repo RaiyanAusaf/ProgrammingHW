@@ -1,0 +1,30 @@
+I have the general idea but i dont know what to put
+
+You want to have a scanner to scan a bad word EX/ "F-Bomb"
+You want to display it by minusing the bad word
+You want to run a For Loop so the bad word if it occurs more than once all the instances get DELETED
+Now Farmer John has a good cow
+
+Unsure if this code is right
+
+public class ScannerDemo {
+    public static void main(String[] arguments){
+       //Scanner input = new Scanner(System.in);
+       String s =  "InputStringNewStringOldString";
+       String t = "F-Bomb";
+       int i = 1;
+       boolean found = true;
+        //System.out.println(s);
+        //System.out.println(t);
+        
+        //while (found) {
+            //s.toLowerCase().contains(t.toLowerCase())
+            int pos = s.indexOf(t);
+            int tl = t.length();
+            String ns = s.replace(t,"");
+            //i++;
+            System.out.println(ns);
+        //}
+
+    }
+}
