@@ -1,0 +1,14 @@
+public class HelloWorld{
+
+     public static void main(String []args)
+        char[] a = {'m', 'a', 't', 'h', 'i', 's', 'c', 'o', 'o', 'l'};
+        char[] b = {'r', 'e','a','d','i','n','g'};
+        String sb = new String(b);
+        String sa = new String(a);
+        int firstIndex1 = sa.indexOf("ing");
+        int firstIndex2 = sb.indexOf("ing");
+        if (firstIndex1) == -1
+         System.out.println("Ing does not exist");
+        System.out.println(firstIndex1);
+        System.out.println(firstIndex2);
+        System.out.println(b);
